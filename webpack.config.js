@@ -14,9 +14,9 @@ Encore
     // only needed for CDN's or sub-directory deploy
     //.setManifestKeyPrefix('build/')
     // ...
-    .enableReactPreset()
     // uncomment to define the assets of the project
-    .addEntry('js/app', './assets/js/app.js')
+    .addEntry('app', './assets/app.js')
+    .enableReactPreset()
 
     /*
      * ENTRY CONFIG
